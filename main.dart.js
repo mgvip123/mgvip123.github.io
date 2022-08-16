@@ -74202,8 +74202,9 @@ no(){var s,r=this
 r.Du()
 A.bC()
 r.at=new A.Mm().CK("id")
-r.ax=new A.Mm().CK("type")
-r.ay=u.s
+s=r.ax=new A.Mm().CK("type")
+if(s===2)r.ay=u.s
+else if(s===3)r.ay=u.Q
 s=r.at
 s.toString
 if(A.c8(s))r.at=J.aj(A.apk(window.location.href).gvj().h(0,"ref"))
