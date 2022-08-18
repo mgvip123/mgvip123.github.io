@@ -73466,7 +73466,7 @@ if(A.c2(a))return""
 if(B.c.C(a,n)){s=a.split(n)[0]
 r=a.split(n)[1]
 if(r.length>4)r=B.c.P(r,0,4)
-return s+"."+r}else{if(a.length>18){q=A.bz(A.ei(a))
+return s+"."+r}else{if(a.length>13){q=A.bz(A.ei(a))
 p=A.bz(1e18)
 o=A.e(q.cN(0)/p.cN(0))
 if(B.c.C(o,n)){s=o.split(n)[0]
